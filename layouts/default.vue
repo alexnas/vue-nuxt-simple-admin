@@ -2,9 +2,9 @@
   <div>
     <NavBar />
     <main>
-      <b-container>
+      <div class="container">
         <nuxt />
-      </b-container>
+      </div>
     </main>
   </div>
 </template>

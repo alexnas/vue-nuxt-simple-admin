@@ -1,15 +1,22 @@
 <template>
   <header>
-    <b-navbar toggleable="sm" type="dark" variant="info">
-      <b-navbar-brand href="#">NavBar</b-navbar-brand>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="/">Navbar</a>
 
-      <b-collapse is-nav>
-        <b-navbar-nav>
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">Users</b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link class="nav-link" to="/users">Users</nuxt-link>
+          </li>
+          <li class="nav-item">
+            <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 </template>
 
