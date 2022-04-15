@@ -1,22 +1,22 @@
 <template>
-  <div>
-    <NavBar />
-    <main>
-      <div class="container">
-        <nuxt />
-      </div>
-    </main>
-  </div>
+    <div>
+        <NavBar />
+        <main>
+            <div class="container">
+                <nuxt />
+            </div>
+        </main>
+    </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar";
+import NavBar from '@/components/NavBar'
 
 export default {
-  components: {
-    NavBar,
-  },
-};
+    components: {
+        NavBar,
+    },
+}
 </script>
 
 <style lang="scss" scoped></style>
