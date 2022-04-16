@@ -1,4 +1,4 @@
-# vue-nuxt-bbadmin
+# vue-nuxt-simple-admin
 
 ## Build Setup
 
